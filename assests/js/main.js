@@ -22,7 +22,7 @@ if(imc<=18.5) {
     } else if(imc>=40){
             resp.innerHTML=`Seu imc é ${imc.toFixed(2)} (Obesidade grau 3)`
     } else {
-        resp.innerHTML='Valor iválido'
+        resp.innerHTML='Valor inválido'
     }        
 e.preventDefault();
 })
